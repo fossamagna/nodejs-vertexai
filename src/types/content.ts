@@ -225,6 +225,10 @@ export declare interface GenerationConfig {
    * If set, a compatible responseMimeType must also be set.
    */
   responseSchema?: ResponseSchema;
+  /**
+   * Optional. If enabled, audio timestamp will be included in the request to the model.
+   */
+  audioTimestamp?: boolean;
 }
 
 /**
